@@ -6,7 +6,7 @@
 - clean: ['~/.config/nvim']
 
 - link:
-    ~/.config/nvim: config/nvim
+    ~/.config/nvim: nvim
 
 # - create:
 #  - ~/downloads
