@@ -3,10 +3,13 @@
         create: true
         relink: true
 
-- clean: ['~/.config/nvim']
+- clean: ['~/.config/nvim',
+          '~/.config/wezterm']
 
 - link:
     ~/.config/nvim: nvim
+    ~/.config/wezterm: wezterm
+    ~/.config/conky: conky
 
 # - create:
 #  - ~/downloads
