@@ -1,0 +1,32 @@
+[wsl2]
+# 设置使用的处理器数量
+processors=4
+
+# 设置分配的内存大小
+memory=8GB
+
+# 设置交换分区的大小
+swap=2GB
+
+# 启用或禁用本地主机转发
+# localhostForwarding=true
+
+# 设置网络模式为镜像模式，WSL2 虚拟机的网络流量将通过主机的网络接口
+# 此模式下无法使用usbip工具
+networkingMode=mirrored
+
+# 启用 DNS 隧道功能，使得 DNS 查询通过主机的 DNS 服务器
+dnsTunneling=true
+
+# 启用防火墙功能，增强网络安全性
+firewall=true
+
+# 启用自动代理检测功能
+autoProxy=true
+
+[experimental]
+# 启用自动内存回收功能，并设置为逐步回收
+autoMemoryReclaim=gradual
+hostAddressLoopback=true
+# 自动磁盘空间清理
+sparseVhd=true
