@@ -104,8 +104,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-alias v2ray="source ~/Documents/proxy.sh"
-cd ~
 
 source /opt/ros/noetic/setup.zsh
 export PATH="$HOME/.local/bin:$PATH"
