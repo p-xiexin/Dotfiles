@@ -104,18 +104,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-
-source /opt/ros/noetic/setup.zsh
-export PATH="$HOME/.local/bin:$PATH"
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 
-export ROS_MASTER_URI=http://192.168.43.214:11311
-export ROS_IP=192.168.43.162
+#source /opt/ros/noetic/setup.zsh
+#export PATH="$HOME/.local/bin:$PATH"
+
+#export ROS_MASTER_URI=http://192.168.43.214:11311
+#export ROS_IP=192.168.43.162
 #export ROS_MASTER_URI=http://127.0.0.1:11311
 #export ROS_IP=127.0.0.1
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-export PATH="$PATH:/opt/nvim-linux64/bin"
