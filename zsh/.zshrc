@@ -113,3 +113,5 @@ export VIRTUAL_ENV_DISABLE_PROMPT=1
 #export ROS_IP=192.168.43.162
 #export ROS_MASTER_URI=http://127.0.0.1:11311
 #export ROS_IP=127.0.0.1
+
+eval "$(register-python-argcomplete3 ros2)"
