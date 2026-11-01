@@ -1,0 +1,54 @@
+# ys-style prompt, rendered by Starship without extra fonts.
+format = "[#](bold blue) $username[@](white) $hostname[in](white) $directory$git_branch$git_status$python$time$status$line_break$character"
+add_newline = true
+
+[username]
+show_always = true
+style_user = "cyan"
+style_root = "bold black bg:yellow"
+format = "[$user]($style) "
+
+[hostname]
+ssh_only = false
+style = "green"
+format = "[$hostname]($style) "
+
+[directory]
+style = "bold yellow"
+truncation_length = 0
+truncate_to_repo = false
+read_only = " (read-only)"
+format = "[$path]($style)[$read_only]($read_only_style) "
+
+[git_branch]
+format = "[on](white) [git:](blue)[$branch](cyan) "
+
+[git_status]
+format = '([$all_status$ahead_behind]($style) )'
+style = "red"
+conflicted = "!"
+untracked = "?"
+modified = "x"
+staged = "+"
+renamed = "r"
+deleted = "-"
+stashed = "s"
+ahead = ">"
+behind = "<"
+diverged = "<>"
+
+[python]
+format = '[($virtualenv )](green)'
+
+[time]
+disabled = false
+time_format = "%T"
+format = '[\[$time\]](white) '
+
+[status]
+disabled = false
+format = '[C:$status](bold red) '
+
+[character]
+success_symbol = '[\$](bold red)'
+error_symbol = '[\$](bold red)'

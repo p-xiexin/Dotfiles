@@ -1,0 +1,47 @@
+// 将键绑定放在此文件中以覆盖默认值
+[
+    {
+        "key": "alt+/",
+        "command": "markdown.reopenAsSource",
+        "when": "!activeCustomEditorTextDiff && !isSessionsWindow && activeCustomEditorId == 'vscode.markdown.preview.editor'"
+    },
+    {
+        "key": "alt+/",
+        "command": "-editor.action.accessibleViewAcceptInlineCompletion",
+        "when": "accessibleViewIsShown && accessibleViewCurrentProviderId == 'inlineCompletions'"
+    },
+    {
+        "key": "alt+/",
+        "command": "markdown.reopenAsPreview",
+        "when": "!hasCustomMarkdownPreview && !isSessionsWindow && !notebookEditorFocused && activeEditor == 'workbench.editors.files.textFileEditor' && resourceLangId =~ /^(markdown|prompt|instructions|chatagent|skill)$/"
+    },
+    {
+        "key": "alt+left",
+        "command": "workbench.action.navigateBack",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "workbench.action.navigateForward",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "tab",
+        "command": "selectNextSuggestion",
+        "when": "editorTextFocus && suggestWidgetVisible"
+    },
+    {
+        "key": "shift+tab",
+        "command": "selectPrevSuggestion",
+        "when": "editorTextFocus && suggestWidgetVisible"
+    },
+    {
+        "key": "enter",
+        "command": "acceptSelectedSuggestion",
+        "when": "editorTextFocus && suggestWidgetVisible && suggestWidgetHasFocusedSuggestion"
+    },
+    {
+        "key": "ctrl+[Backquote]",
+        "command": "workbench.action.terminal.toggleTerminal"
+    }
+]

@@ -1,0 +1,14 @@
+{
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "leetcode.endpoint": "leetcode-cn",
+    "leetcode.workspaceFolder": "/Users/p-xiexin/.leetcode",
+    "leetcode.defaultLanguage": "cpp",
+    "editor.suggest.showSnippets": false,
+    "chat.disableAIFeatures": true,
+    "workbench.colorTheme": "Dark Modern",
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.hint.commentDescription": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.autoSave": "onFocusChange",
+    "scm.defaultViewMode": "tree"
+}
